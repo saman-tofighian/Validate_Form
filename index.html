@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login-Form</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Login Form</h1>
+      <form
+        action="login.php"
+        name="form"
+        onsubmit="return _login()"
+      >
+      <input type="text" name="email" placeholder="Enter Your Email" autocomplete="off">
+      <span></span>
+      <input type="text" id="pass" name="password" placeholder="Enter Your PassWord" autocomplete="off">
+      <span></span>
+      <button>Send</button>
+    </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
